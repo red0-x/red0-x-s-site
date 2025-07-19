@@ -1,11 +1,12 @@
 export default function constHandler() {
 
     //const here
-    const cD: {red0xx:string, github:string, discord:string, rev: any, email:string} = {
+    const cD: {red0xx:string, github:string, discord:string, rev:any, announcement:string, email:string} = {
         red0xx: "@red0xx",
         github: "https://github.com/red0-x",
         discord: "https://discord.com/users/666121487584854026",
         rev: [0o7, 19, 25],
+        announcement: "Welcome!",
         email: "Coming soon!"
     };
 

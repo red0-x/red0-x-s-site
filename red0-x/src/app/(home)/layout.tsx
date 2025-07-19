@@ -8,7 +8,7 @@ const mona = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "red0-x's Site",
+  title: "red0xx's Site",
   description: "My personal site",
 };
 
@@ -20,7 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${mona.variable} antialiased`}
+        className={`${mona.variable} antialiased bg-cover bg-center bg-no-repeat bg-fixed bg-[url(/static/wallpaper/background4.png)]`}
+
       >
         {children}
       </body>
